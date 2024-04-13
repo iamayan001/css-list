@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css styling list and overflow </title>
+    <style>
+        nav ul li{
+            /* list-style: none; */
+            background-color: yellow;
+            list-style-position: inside;
+            border: 2px solid black;
+            margin: 2px;
+            list-style-type: circle;
+        }
+        .box{
+            width: 70px;
+            height: 70px;
+            border: 2px solid black;
+            overflow: auto;
+            white-space:nowrap;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+    <div class="box">
+        i am a good boy and i love to write Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio sunt mollitia eaque dolores ut, odit nobis! Ipsam sequi cum incidunt iusto, voluptas amet rerum. 
+    </div>
+</body>
+</html>
